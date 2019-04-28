@@ -13,7 +13,7 @@ let list = [{
   }];
   
   let arr = [];
-  list.sort((i, b) => i.price - b.price);
+  list.sort((a, b) => a.price - b.price);
   list.forEach((elm, index) => {
     if (arr.length === 0) {
       arr.push(elm);
